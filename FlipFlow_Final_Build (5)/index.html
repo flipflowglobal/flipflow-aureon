@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlipFlow | Wealth Reimagined</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background: url('https://i.imgur.com/8gkdYLB.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: gold;
+      overflow-x: hidden;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.85);
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px #ff0000;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    .cta-button {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      background-color: gold;
+      border: none;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 15px gold;
+    }
+    .cta-button:hover {
+      background-color: #ffd700;
+    }
+    .avatar-img {
+      width: 100px;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <img class="avatar-img" src="https://i.imgur.com/T4NJlYB.png" alt="Rich Evil Avatar" />
+    <h1>FlipFlow</h1>
+    <p>The most advanced AI wealth engine in the world. Secure. Automated. Unstoppable.</p>
+    <button class="cta-button" onclick="location.href='https://yourapp.com/signup'">Join The Revolution</button>
+  </div>
+</body>
+</html>
